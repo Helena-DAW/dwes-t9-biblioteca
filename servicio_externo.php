@@ -4,10 +4,10 @@
  * Servicio externo - Open Library API
  * 
  * Busca libros en Open Library (API pública de terceros) y muestra
- * los resultados en una página web. Cumple el requisito RA9_f:
+ * los resultados en una página web:
  * "Utilizar un servicio web y mostrar el resultado en una página web".
  * 
- * @package DWES_T9
+ * @package Servicio Externo
  * @author Helena Cristina Muñoz González
  * @version 1.0
  */

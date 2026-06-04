@@ -1,3 +1,17 @@
+<?php
+
+/**
+ * Aplicación Biblioteca
+ * 
+ * Cliente web que consume la API REST mediante file_get_contents().
+ * Permite navegar por autores y libros con búsqueda AJAX.
+ * 
+ * @package Aplicacion_Biblioteca
+ * @author Helena Cristina Muñoz González
+ * @version 1.0
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 

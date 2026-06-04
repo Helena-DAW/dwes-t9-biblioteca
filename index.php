@@ -9,7 +9,7 @@
  * - Pruebas unitarias
  * - Repositorio en GitHub
  * 
- * @package DWES_T9
+ * @package Indice
  * @author Helena Cristina Muñoz González
  * @version 1.0
  */

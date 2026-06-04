@@ -1,4 +1,16 @@
 <?php
+
+/**
+ * Librería de gestión de base de datos
+ * 
+ * Clase que centraliza la conexión y consultas a la base de datos
+ * de la biblioteca (autores y libros).
+ * 
+ * @package Libreria
+ * @author Helena Cristina Muñoz González
+ * @version 1.0
+ */
+
 class Libros
 {
 //CONEXIÓN CON LA DB:

@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * API REST de Biblioteca
+ * 
+ * Endpoints JSON para consultar autores, libros y búsquedas.
+ * 
+ * @package API_REST
+ * @author Helena Cristina Muñoz González
+ * @version 1.0
+ */
+
 /*--- Abrimos Conexion a la BD, incluimos la clase Libros de Libros.php ---*/
 
 require_once('Libros.php');
