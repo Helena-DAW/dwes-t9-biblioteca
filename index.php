@@ -113,7 +113,7 @@
     /* ── GRID ── */
     .grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 24px;
     }
 
@@ -153,7 +153,7 @@
     }
 
     .card:nth-child(2)::before {
-      background: #2563eb;
+      background: #0891b2;
     }
 
     .card:nth-child(3)::before {
@@ -187,8 +187,8 @@
     }
 
     .card:nth-child(2) .card-tag {
-      background: var(--tag-api);
-      color: var(--tag-api-text);
+      background: #cffafe;
+      color: #155e75;
     }
 
     .card:nth-child(3) .card-tag {
@@ -245,16 +245,16 @@
         <span class="card-desc">Explora autores y libros con búsqueda en tiempo real mediante AJAX.</span>
       </a>
 
-      <a href="api.php?action=get_listado_autores" class="card">
-        <span class="card-tag">Servicio</span>
-        <span class="card-title">API REST</span>
-        <span class="card-desc">Endpoints JSON para consultar autores, libros y búsquedas.</span>
-      </a>
-
       <a href="doc/index.html" class="card">
         <span class="card-tag">Documentación</span>
         <span class="card-title">PHPDoc</span>
         <span class="card-desc">Documentación técnica generada con phpDocumentor.</span>
+      </a>
+
+      <a href="servicio_externo.php" class="card">
+        <span class="card-tag">Servicio Externo</span>
+        <span class="card-title">Open Library API</span>
+        <span class="card-desc">Busca libros en el catálogo público de Open Library mediante file_get_contents().</span>
       </a>
 
       <a href="https://github.com/Helena-DAW/dwes-t9-biblioteca" target="_blank" class="card">
