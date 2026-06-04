@@ -1,0 +1,6 @@
+/vendor/
+/doc/
+/.phpdoc/
+/cache/
+*.log
+*.tmp
